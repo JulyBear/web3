@@ -2,7 +2,7 @@
 
 #RPC_URL="https://api.mainnet-beta.solana.com"
 RPC_URL="http://***"
-KEYPAIR_PATH="/home/solana/config/validator-keypair.json"
+KEYPAIR_PATH="~/.config/solana/id.json"
 
 
 check_rewards() {
