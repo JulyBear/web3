@@ -1,0 +1,49 @@
+{
+    "apps": [
+        {
+            "name": "qian1",
+            "script": "/var/snap/amazon-ssm-agent/7983/web3/ore_s2.sh",
+            "exec_interpreter": "/usr/bin/sh",
+            "merge_logs": false,
+            "watch": false,
+            "error_file": "/var/snap/amazon-ssm-agent/7983/web3/wa1.error.log",
+            "out_file": "/var/snap/amazon-ssm-agent/7983/web3/wa1.out.log"
+        },
+        {
+            "name": "qian2",
+            "script": "/var/snap/amazon-ssm-agent/7983/web3/ore_s2.sh",
+            "exec_interpreter": "/usr/bin/sh",
+            "merge_logs": false,
+            "watch": false,
+            "error_file": "/var/snap/amazon-ssm-agent/7983/web3/wa2.error.log",
+            "out_file": "/var/snap/amazon-ssm-agent/7983/web3/wa2.out.log"
+        },
+        {
+            "name": "qian3",
+            "script": "/var/snap/amazon-ssm-agent/7983/web3/ore_s2.sh",
+            "exec_interpreter": "/usr/bin/sh",
+            "merge_logs": false,
+            "watch": false,
+            "error_file": "/var/snap/amazon-ssm-agent/7983/web3/wa3.error.log",
+            "out_file": "/var/snap/amazon-ssm-agent/7983/web3/wa3.out.log"
+        },
+        {
+            "name": "qian4",
+            "script": "/var/snap/amazon-ssm-agent/7983/web3/ore_s2.sh",
+            "exec_interpreter": "/usr/bin/sh",
+            "merge_logs": false,
+            "watch": false,
+            "error_file": "/var/snap/amazon-ssm-agent/7983/web3/wa4.error.log",
+            "out_file": "/var/snap/amazon-ssm-agent/7983/web3/wa4.out.log"
+        },
+        {
+            "name": "qian5",
+            "script": "/var/snap/amazon-ssm-agent/7983/web3/ore_s2.sh",
+            "exec_interpreter": "/usr/bin/sh",
+            "merge_logs": false,
+            "watch": false,
+            "error_file": "/var/snap/amazon-ssm-agent/7983/web3/wa5.error.log",
+            "out_file": "/var/snap/amazon-ssm-agent/7983/web3/wa5.out.log"
+        },
+    ]
+}
